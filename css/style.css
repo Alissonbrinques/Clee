@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Kaushan+Script&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+:root{
+/* colors: */
+--primary-color:#DFFBC3;
+--secundary-color:#212121;
+--tertiary-color:#FFF;
+
+/*fonts: */
+--primary-font: 'Kaushan Script';
+}
+
+main{
+	background-color: var(--secundary-color);
+	height: 100vh;
+	width: 100%;	
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.container{
+background-color:var(--primary-color);
+min-width: 400px;
+width: 30%;
+max-height: 400px;
+height: 100%;
+display:grid;
+align-items:center;
+text-align:center;
+justify-content:center;
+margin:0;
+border-radius: 6px;
+}
+
+.logo{
+	font-size:120px;
+	font-family:var(--primary-font);
+	text-align: center;
+	margin:0;
+}
+
+input{
+	font-family:'Ibm Plex Mono';
+	width:350px;
+	height:2.5rem;
+	margin:10px 0px;
+	border:none;
+	border-radius:6px;
+}
+
+::placeholder{	
+	padding:10px;
+	font-family:'Ibm Plex Mono';
+	font-size: 14px;
+}
+
+button{
+	margin-top: 10px;
+	width:100%;
+	border:none;
+	cursor:pointer;
+	animation: 0.8s ;
+}
+
+button:hover{
+	color:var(--secundary-color);
+	background-color: var(--tertiary-color);
+}
+
+.btn{
+	font-family: 'Ibm Plex Mono';
+	font-size:17px;
+	height:2.5rem;
+	color:var(--tertiary-color);
+	background-color:var(--secundary-color);
+	border-radius:6px;
+}
+
+.container a{
+	text-decoration: none;
+	color:var(--secundary-color);
+}
+.forgot__password{
+margin: 10px auto;
+}
+
+	
