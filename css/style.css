@@ -53,8 +53,12 @@ input{
 	width:350px;
 	height:2.5rem;
 	margin:10px 0px;
-	border:none;
 	border-radius:6px;
+	border:none;
+
+}
+input:focus {
+    outline: 4px solid var(--secundary-color);
 }
 
 ::placeholder{	
@@ -89,8 +93,4 @@ button:hover{
 	text-decoration: none;
 	color:var(--secundary-color);
 }
-.forgot__password{
-margin: 10px auto;
-}
 
-	
