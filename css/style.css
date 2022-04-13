@@ -16,6 +16,7 @@
 
 /*fonts: */
 --primary-font: 'Kaushan Script';
+--secundary-font:'Ibm Plex Mono';	
 }
 
 main{
@@ -62,8 +63,8 @@ input:focus {
 }
 
 ::placeholder{	
-	padding:10px;
-	font-family:'Ibm Plex Mono';
+	padding:30px;
+	font-family:var(--secundary-font);
 	font-size: 14px;
 }
 
@@ -81,16 +82,38 @@ button:hover{
 }
 
 .btn{
-	font-family: 'Ibm Plex Mono';
+	font-family: var(--secundary-font);
 	font-size:17px;
 	height:2.5rem;
 	color:var(--tertiary-color);
 	background-color:var(--secundary-color);
 	border-radius:6px;
+	margin-bottom: 10px;
 }
 
 .container a{
 	text-decoration: none;
 	color:var(--secundary-color);
+}s
+
+i{
+	color: #aaa6a6;
+}
+#user{
+position: absolute;
+margin:35px;
+margin-top:12.4rem;
 }
 
+#passw{
+position: absolute;
+margin:35px;
+margin-top:16.2rem;
+
+}
+
+a{
+	font-size: 14px;
+	font-family: var(--secundary-font);
+	margin-bottom: 20px;
+}
