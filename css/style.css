@@ -10,39 +10,41 @@
 
 :root{
 /* colors: */
---primary-color:#DFFBC3;
+--primary-color:#b2d491;
 --secundary-color:#212121;
---tertiary-color:#FFF;
+--tertiary-color:rgb(228, 228, 228);
 
 /*fonts: */
 --primary-font: 'Kaushan Script';
 --secundary-font:'Ibm Plex Mono';	
-}
+}	
 
 main{
-	background-color: var(--secundary-color);
 	height: 100vh;
 	width: 100%;	
 	display:flex;
 	justify-content: center;
 	align-items:center;
+	background-color:var(--tertiary-color) ;
 }
 
 .container{
 background-color:var(--primary-color);
 min-width: 400px;
 width: 30%;
-max-height: 400px;
+max-height: 420px;
 height: 100%;
 display:grid;
 align-items:center;
 text-align:center;
 justify-content:center;
 margin:0;
-border-radius: 6px;
+border-radius: 5px;
+border:3px solid var(--secundary-color);
 }
 
 .logo{
+	color:var(--secundary-color);
 	font-size:120px;
 	font-family:var(--primary-font);
 	text-align: center;
