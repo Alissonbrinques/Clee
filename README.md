@@ -7,7 +7,6 @@ A page was made in html and basic css. A simple login area was created The idea 
 
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/195409179@N06/52038876315/in/dateposted-public/" title="Captura de tela de 2022-04-29 15-20-56"><img src="https://live.staticflickr.com/65535/52038876315_57d9d39104_h.jpg" width="1340" height="480" alt="Captura de tela de 2022-04-29 15-20-56"></a>
-<<<<<<< HEAD
 
 <h1> Area de cadastro <h1>
 Welcome to the Login Clee wiki!
@@ -15,5 +14,3 @@ Welcome to the Login Clee wiki!
 This is a basic registration area made in html and pure css, without using frameworks, based on the Clee project made to insert a user registration in order to have access to a simple account, we see on the screen that we have the insertion part of data with name, surname, password and confirm password, fast and super simple.
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/195409179@N06/52038441176/in/dateposted-public/" title="Captura de tela de 2022-04-29 16-03-26"><img src="https://live.staticflickr.com/65535/52038441176_c65dfe2aaa_h.jpg" width="1340" height="480" alt="Captura de tela de 2022-04-29 16-03-26"></a>
-=======
->>>>>>> 644d90b433a4251637483ca80a82de8342f75b95
