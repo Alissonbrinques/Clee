@@ -49,6 +49,8 @@ margin:0;
 
 
 .logo{
+	text-decoration: none;
+	cursor: pointer;
 	color:var(--secundary-color);
 	font-size:120px;
 	font-family:var(--primary-font);
