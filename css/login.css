@@ -43,7 +43,7 @@ margin:0;
 	background-color: var(--primary-color);
 	border-radius: 6px;
 	width: 400px;
-	height: 430px;
+	height: 530px;
 }
 
 
@@ -56,7 +56,7 @@ margin:0;
 	margin:10px;
 }
 
-input{
+.input__user,  .input__password{
 	display: grid;
 	font-family:'Ibm Plex Mono';
 	width:350px;
@@ -99,8 +99,21 @@ button:hover{
 	margin-bottom: 10px;
 }
 .forgot__password{
+
 	color:var(--secundary-color);
 	font-size: 17px;
-	text-decoration: none;
-	margin-bottom: 20px;
+	text-decoration: none;	
 	 }
+
+input > .remenber_me{
+background-color: red;
+}
+.join_Clee {
+	color:var(--secundary-color);
+	font-family: var(--secundary-font);
+	text-decoration: none;
+	width: 100%;	
+	margin:20px auto;
+	display:flex;
+	justify-content: center;
+}

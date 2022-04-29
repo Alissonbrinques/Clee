@@ -58,3 +58,19 @@ header{
     margin: 10px;
 }
 
+.sectionOne{
+    display: flex;
+    margin:100px;
+    width: 100%;
+    height: 10rem;
+}
+.sectionOne h2{
+    font-size: 40px;
+    font-family: var(--secundary-font);
+}
+
+.sectionOne img{
+    width: 713px;
+    height: 519px;
+    object-fit: cover;
+}
