@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Kaushan+Script&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+:root{
+/* colors: */
+--primary-color:#b2d492;
+--secundary-color:#363636;
+--tertiary-color:rgb(228, 228, 228);
+
+/*fonts: */
+--primary-font: 'Kaushan Script';   
+--secundary-font:'Ibm Plex Mono';	
+}	
+
+
+body{
+    background-color:var(--secundary-color);
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin:0;
+    
+
+}
+
+.wrapper{
+    overflow-y:hidden;
+    background-color: var(--primary-color);
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    display: grid;
+}
+
+.logo{
+    font-family: var(--primary-font);
+    font-size: 90px;
+    text-decoration: none;
+    color:var(--secundary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+
+    border:none;
+    height:2.5rem;
+    margin: 0 auto;
+    width:350px;
+    align-items: center;
+    justify-content: center;
+    margin:10px 10px;
+    border-radius: 6px;
+}
+
+
+::placeholder{	
+	padding:30px;
+	font-family:var(--secundary-font);
+	font-size: 14px;
+}
+.btn{
+    margin: 0 auto;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}   
+
+.btn{
+    margin:10px 10px;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius:6px;
+    background-color: var(--secundary-color);
+	font-family:var(--secundary-font);
+	font-size: 18px;
+    animation: 0.8s;
+    color:var(--tertiary-color);
+}
+
+button:hover{
+	color:var(--secundary-color);
+	background-color: var(--tertiary-color);
+}
+
+.area_login{
+    background-color: var(--secundary-color);
+    font-family: var(--secundary-font); 
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.area_login{
+    color:white;
+    text-decoration: none;
+}
